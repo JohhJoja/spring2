@@ -30,5 +30,6 @@ public class StudentService {
             throw new IllegalStateException("email taken");
         }
         studentRepository.save(student);
+        System.out.println("s");
     }
 }
